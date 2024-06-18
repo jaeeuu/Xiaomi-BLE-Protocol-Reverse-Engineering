@@ -6,24 +6,24 @@ Reverse Engineering the Bluetooth Communication Protocol of Xiaomi IoT Devices
 The Xiaomi IoT devices communicate using various Bluetooth services and characteristics. Here is a detailed breakdown:
 
 **Services**
-Service 0x1801: `00001801-0000-1000-8000-00805f9b34fb`
-Service 0x1800: `00001800-0000-1000-8000-00805f9b34fb`
-Service 0xfe95: `0000fe95-0000-1000-8000-00805f9b34fb`
+1. Service 0x1801: `00001801-0000-1000-8000-00805f9b34fb`
+2. Service 0x1800: `00001800-0000-1000-8000-00805f9b34fb`
+3. Service 0xfe95: `0000fe95-0000-1000-8000-00805f9b34fb`
 **Characteristics and Descriptors**
-Characteristic 0x2a05: `00002a05-0000-1000-8000-00805f9b34fb` (Info)
-Descriptor 0x2902: `00002902-0000-1000-8000-00805f9b34fb`
-Characteristic 0x2a00: `00002a00-0000-1000-8000-00805f9b34fb` (Read)
-Characteristic 0x2a01: `00002a01-0000-1000-8000-00805f9b34fb` (Read)
-Characteristic 0x2aa6: `00002aa6-0000-1000-8000-00805f9b34fb` (Read)
-Characteristic 0x0004: `00000004-0000-1000-8000-00805f9b34fb` (Read)
-Characteristic 0x0005: `00000005-0000-1000-8000-00805f9b34fb` (Notify, Read)
-Characteristic 0x0010: `00000010-0000-1000-8000-00805f9b34fb` (Notify, Write with no reply)
-Characteristic 0x0016: `00000016-0000-1000-8000-00805f9b34fb` (Notify, Write with no reply)
-Characteristic 0x0017: `00000017-0000-1000-8000-00805f9b34fb` (Notify, Write with reply)
-Characteristic 0x0018: `00000018-0000-1000-8000-00805f9b34fb` (Notify, Write with no reply)
-Characteristic 0x001a: `0000001a-0000-1000-8000-00805f9b34fb` (Notify, Write with no reply)
-Characteristic 0x001b: `0000001b-0000-1000-8000-00805f9b34fb` (Notify, Write with no reply)
-Characteristic 0x001c: `0000001c-0000-1000-8000-00805f9b34fb` (Notify, Write with no reply)
+1. Characteristic 0x2a05: `00002a05-0000-1000-8000-00805f9b34fb` (Info)
+1-1. Descriptor 0x2902: `00002902-0000-1000-8000-00805f9b34fb`
+2. Characteristic 0x2a00: `00002a00-0000-1000-8000-00805f9b34fb` (Read)
+3. Characteristic 0x2a01: `00002a01-0000-1000-8000-00805f9b34fb` (Read)
+4. Characteristic 0x2aa6: `00002aa6-0000-1000-8000-00805f9b34fb` (Read)
+5. Characteristic 0x0004: `00000004-0000-1000-8000-00805f9b34fb` (Read)
+6. Characteristic 0x0005: `00000005-0000-1000-8000-00805f9b34fb` (Notify, Read)
+7. Characteristic 0x0010: `00000010-0000-1000-8000-00805f9b34fb` (Notify, Write with no reply)
+8. Characteristic 0x0016: `00000016-0000-1000-8000-00805f9b34fb` (Notify, Write with no reply)
+9. Characteristic 0x0017: `00000017-0000-1000-8000-00805f9b34fb` (Notify, Write with reply)
+10. Characteristic 0x0018: `00000018-0000-1000-8000-00805f9b34fb` (Notify, Write with no reply)
+11. Characteristic 0x001a: `0000001a-0000-1000-8000-00805f9b34fb` (Notify, Write with no reply)
+12. Characteristic 0x001b: `0000001b-0000-1000-8000-00805f9b34fb` (Notify, Write with no reply)
+13. Characteristic 0x001c: `0000001c-0000-1000-8000-00805f9b34fb` (Notify, Write with no reply)
 
 ## Key Exchange and Session Key Generation for Xiaomi IoT Devices
 
