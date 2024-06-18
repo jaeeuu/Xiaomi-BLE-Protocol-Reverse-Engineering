@@ -1,4 +1,4 @@
-# Xiaomi-BLE-Protocol-Reverse-Engineering
+# Xiaomi BLE Protocol Reverse Engineering
 
 Reverse Engineering the Bluetooth Communication Protocol of Xiaomi IoT Devices
 
